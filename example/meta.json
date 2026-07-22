@@ -1,1 +1,11 @@
-test
+{
+  "title": "QuantumFlow — High-Frequency Crypto Arbitrage Protocol",
+  "description": "An ultra-low latency decentralized arbitrage protocol executing cross-DEX trading across Solana, Arbitrum, and Ethereum with sub-10ms execution.",
+  "status": "completed",
+  "tags": ["Rust", "Solana", "Anchor", "TypeScript", "gRPC", "Web3"],
+  "demo": "https://quantumflow.rocera.dev",
+  "github": "https://github.com/rocera-dev/quantumflow",
+  "date": "2024-12-15",
+  "featured": true,
+  "caseStudy": "## Project Overview\n\nQuantumFlow is a high-frequency decentralized arbitrage engine designed for high-stakes institutional liquidators. The system monitors liquidity pools across Solana, Arbitrum, and Ethereum, identifying price discrepancies in real-time.\n\n## Technical Architecture\n\n- **Orderbook Engine** — Custom Rust core utilizing Solana Jito-Solana MEV bundles for zero-rejection tx execution.\n- **Market Ingestion** — gRPC streaming node connecting directly to validators with sub-5ms packet processing.\n- **Smart Contract Layer** — Anchor framework contracts on Solana and Solidity ERC-4626 vaults on EVM chains.\n\n## Key Performance Results\n\n- **$120M+** monthly volume processed\n- **sub-8ms** average execution latency\n- **99.99%** bundle inclusion rate\n- **Zero** capital loss over 8 months of continuous production operations"
+}
